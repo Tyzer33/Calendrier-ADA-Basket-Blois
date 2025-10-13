@@ -24,7 +24,7 @@ async function main() {
 
   const cal = new ICalCalendar(
     {
-      name: 'Ada Blois Basket',
+      name: 'ADA Blois Basket',
       url: 'https://ada-basket.com/equipe-pro/calendrier/',
     },
     'Europe/Paris'
