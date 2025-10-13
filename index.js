@@ -44,6 +44,7 @@ async function main() {
 
       games.push({
         start: [date.year, date.month, date.day, date.hour, date.minute],
+        timezone: 'Europe/Paris',
         duration: { hours: 2, minutes: 0 },
         title: `${homeTeam} - ${awayTeam} ${score !== '' ? `(${score})` : ''}`,
         description: '',
