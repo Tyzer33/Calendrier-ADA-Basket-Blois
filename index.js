@@ -56,7 +56,7 @@ async function main() {
       if (error) {
         console.error('Error creating event:', error);
       }
-      fs.writeFileSync('calendrier.ics', value);
+      fs.writeFileSync('public/calendrier.ics', value);
       console.log('Events saved to calendrier.ics');
     });
   }
